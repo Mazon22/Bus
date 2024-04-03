@@ -36,7 +36,8 @@ class BusInfo
 
         if (_places < 0)
         {
-            Console.WriteLine($"На {_stopNumber} остановке {_places} человек вышли из автобуса, хотя там не было ни одного пассажира"); _places = 0;
+            Console.WriteLine($"На {_stopNumber} остановке {_places} человек вышли из автобуса, хотя там не было ни одного пассажира");
+            _places = 0;
         }
 
         Console.WriteLine($"{peopleBoardingBus} человек зашли на остановке {_stopNumber} и мест стало {_places}");
